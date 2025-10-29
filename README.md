@@ -44,3 +44,10 @@ Public key authenticity depends on server (MitM scenario not protected in this v
 ```sh
 npm install
 
+This project is **100% open for learning and improvement**
+-  Fork the repo
+-  Modify the code
+-  Build new features on top
+-  Use the concept in their own secure apps
+-  Share ideas and feedback
+
