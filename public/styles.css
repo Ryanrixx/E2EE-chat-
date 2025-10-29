@@ -1,0 +1,20 @@
+:root{--bg:#0f1720;--card:#0b1220;--muted:#94a3b8;--accent:#6ee7b7}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+body{margin:0;background:linear-gradient(180deg,#071028 0%, #071f2e 100%);color:#e6eef6}
+.app{display:flex;min-height:100vh}
+.sidebar{width:280px;background:rgba(255,255,255,0.03);padding:24px;display:flex;flex-direction:column;gap:18px}
+.brand{font-weight:700;font-size:20px}
+.form input{width:100%;padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.03);color:inherit;margin-bottom:8px}
+.form button{width:100%;padding:10px;border-radius:8px;border:none;background:var(--accent);color:#042017;font-weight:600}
+.users h4{margin:0 0 8px 0;color:var(--muted)}
+.users ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+.users li{padding:8px;border-radius:8px;background:rgba(255,255,255,0.01)}
+.chat{flex:1;display:flex;flex-direction:column}
+.chat-header{display:flex;justify-content:space-between;align-items:center;padding:18px;border-bottom:1px solid rgba(255,255,255,0.02)}
+.messages{flex:1;padding:18px;overflow:auto}
+.msg{padding:12px;border-radius:10px;margin-bottom:12px;max-width:70%}
+.msg.me{background:linear-gradient(90deg,#094b3e,#0f8559);margin-left:auto}
+.msg.other{background:rgba(255,255,255,0.03)}
+.composer{display:flex;gap:8px;padding:12px;border-top:1px solid rgba(255,255,255,0.02)}
+.composer select,.composer input{padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:inherit}
+.composer button{padding:10px;border-radius:8px;border:none;background:var(--accent);color:#042017}

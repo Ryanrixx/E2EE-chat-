@@ -1,0 +1,13 @@
+{
+  "name": "e2ee-webapp",
+  "version": "1.0.0",
+  "description": "End-to-end encrypted chat demo (RSA-OAEP + AES-GCM)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
