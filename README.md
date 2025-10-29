@@ -35,6 +35,13 @@ The **server cannot read messages** because:
 Confidentiality secured  
 Public key authenticity depends on server (MitM scenario not protected in this version)
 
+This project is **100% open for learning and improvement**
+-  Fork the repo
+-  Modify the code
+-  Build new features on top
+-  Use the concept in their own secure apps
+-  Share ideas and feedback
+
 ### Dependencies
 - express ^4.18.2
 - socket.io ^4.7.2
@@ -43,11 +50,4 @@ Public key authenticity depends on server (MitM scenario not protected in this v
 
 ```sh
 npm install
-
-This project is **100% open for learning and improvement**
--  Fork the repo
--  Modify the code
--  Build new features on top
--  Use the concept in their own secure apps
--  Share ideas and feedback
 
