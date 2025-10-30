@@ -145,7 +145,6 @@ socket.on("ack", async (payload) => {
 });
 
 
-// ---------- UI UPDATES ----------
 socket.on("user_list", (list) => {
   const userListEl = document.getElementById("userList");
   userListEl.innerHTML = "";
@@ -170,7 +169,6 @@ socket.on("public_key", ({ username, publicKeyPem }) => {
 });
 
 
-// ---------- DISPLAY CHAT ----------
 const messagesEl = document.getElementById("messages");
 function appendMessage(text, type) {
   const d = document.createElement("div");
@@ -181,5 +179,4 @@ function appendMessage(text, type) {
 }
 
 
-// REGISTER BUTTON
 document.getElementById("registerBtn").addEventListener("click", register);
