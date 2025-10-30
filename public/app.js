@@ -49,7 +49,7 @@ async function generateRSA() {
 }
 
 
-// ---------- HYBRID ENCRYPTION (AES-GCM + RSA-OAEP) ----------
+// ---------- HYBRID ENCRYPTION  ----------
 async function hybridEncryptForRecipient(recipientPem, plaintext) {
   const aesKey = await crypto.subtle.generateKey({ name: "AES-GCM", length: 256 }, true, ["encrypt", "decrypt"]);
   const iv = crypto.getRandomValues(new Uint8Array(12));
