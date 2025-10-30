@@ -11,7 +11,7 @@ const io = new Server(server);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const users = {}; // username -> { socketId, publicKeyPem }
+const users = {}; 
 
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
